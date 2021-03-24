@@ -6,6 +6,7 @@ button {
   height: 50px;
   position: relative;
   left: 43%;
+  font-family: sans-serif;
 }
 
 /* container */
@@ -20,8 +21,8 @@ button {
   border-color: gainsboro;
 }
 .ball {
-  width: 100px;
-  height: 100px;
+  width: 66px;
+  height: 66px;
   border-radius: 50%;
   background-color: green;
 }
