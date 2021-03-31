@@ -1,4 +1,3 @@
-
 var arr = [
   "red",
   "blue",
@@ -18,12 +17,12 @@ var arr = [
 ];
 
 function random() {
-    return Math.floor(Math.random() * arr.length);
+  return Math.floor(Math.random() * arr.length);
 }
 
-
 $("button").on("click", function () {
-  $(".container").append("<div class='ball'></div>");
+  $(".shape").addClass("ball");
+  $(".shape").css("backgroundColor", arr[random()]);
+  $(".container").append("<div></div>");
+  $(".container :last-child").addClass("shape");
 });
-
-

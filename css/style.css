@@ -1,17 +1,17 @@
 .btn {
   margin-top: 10%;
+  display: flex;
+  justify-content: center;
 }
 button {
   width: 200px;
   height: 50px;
-  position: relative;
-  left: 43%;
   font-family: sans-serif;
 }
 
 /* container */
 .container {
-  height: 100px;
+  min-height: 100px;
   width: auto;
   background-color: azure;
   margin: 40px 0 0 0;
@@ -19,6 +19,8 @@ button {
   border-width: 0 5px 5px 5px;
   border-style: double;
   border-color: gainsboro;
+  flex-wrap: wrap;
+  flex-flow: wrap-reverse;
 }
 .ball {
   width: 66px;
